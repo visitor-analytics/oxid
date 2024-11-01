@@ -1,0 +1,27 @@
+{
+  "name": "twipla/twipla",
+  "description": "Privacy-First Website Stats, Session Recordings, Heatmaps, Polls and Surveys",
+  "type": "oxideshop-module",
+  "keywords": ["oxid", "module", "script"],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "TWIPLA",
+      "email": "support@twipla.com"
+    }
+  ],
+  "require": {
+    "php": ">=8.2",
+    "oxid-esales/oxideshop-metapackage-ce": "^v7.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "Twipla\\Twipla\\": "src/"
+    }
+  },
+  "extra": {
+    "oxideshop": {
+      "target-directory": "twipla/twipla"
+    }
+  }
+}
