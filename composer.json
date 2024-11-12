@@ -4,6 +4,7 @@
   "type": "oxideshop-module",
   "keywords": ["oxid", "module", "script"],
   "license": "MIT",
+  "version": "1.0.0",
   "authors": [
     {
       "name": "TWIPLA",

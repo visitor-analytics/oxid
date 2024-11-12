@@ -21,6 +21,14 @@ $aModule = [
     'email' => 'support@twipla.com',
     'url' => 'https://twipla.com',
     'thumbnail' => 'logo.png',
+    'events'       => [
+        'onActivate' => '\Twipla\Twipla\Setup\Installer::onActivate',
+        'onDeactivate' => '\Twipla\Twipla\Setup\Installer::onDeactivate'
+    ],
+    'extend' => [
+        \OxidEsales\Eshop\Application\Controller\Admin\ModuleConfiguration::class => Twipla\Twipla\Controller\Admin\CustomModuleConfiguration::class,
+        \OxidEsales\Eshop\Core\ViewConfig::class => Twipla\Twipla\Core\ViewConfig::class,
+    ],
     'settings' => [
         [
             'group' => 'main',
