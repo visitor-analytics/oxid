@@ -16,7 +16,7 @@ $aModule = [
         'en' => 'Privacy-First Website Stats, Session Recordings, Heatmaps, Polls and Surveys',
         'de' => 'Datenschutz-Website-Statistiken, Sitzungsaufzeichnungen, Heatmaps, Abstimmungen und Umfragen – alles an erster Stelle'
     ],
-    'version' => '1.0.0',
+    'version' => '1.0.1',
     'author' => 'TWIPLA',
     'email' => 'support@twipla.com',
     'url' => 'https://twipla.com',
